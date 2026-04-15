@@ -31,7 +31,10 @@ const 	commname = commonnames[0];
 const 	sitelocations = [{ id:0,
 		tree:		level.level00			,
 		seeds:		"mhpack/"				,
-		theroots:	"mhpack/00roots/"		, therootsimgs:	"mhpack/00roots/00rootsimgs/"	,
+		//////////////////
+		theroots:		"mhpack/00roots/"		,
+		therootsimgs:	"mhpack/00roots/00roots01imgs/"	,
+		//////////////////
 		thebole:	"mhpack/01thebole/"		,
 		beams:		"mhpack/02beams/"		,
 		branches:	"mhpack/03branches/"	,

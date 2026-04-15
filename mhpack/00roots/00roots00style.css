@@ -8,32 +8,36 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 
-*{		margin:0;width:100%;transition:all .25s ease-in-out;
-		overflow:hidden;
- 		text-decoration:none;
-  		}
+	* {		margin:0;width:100%;transition:all .25s ease-in-out;overflow:hidden;
+ 			text-decoration:none;list-style:none;box-sizing:border-box;}
 
+	@media (max-width: 1920px) and (min-width: 100px) {
 	/* 00 INDEX --------------------------------------------------------------------------------------------------*/
-	.mhindex {			position:relative;z-index:1;}
-	.mhindexnav {		position:absolute;height:5%;z-index:5;}
-	.mhindexbody {		position:absolute;height:90%;padding:10% 0;z-index:5;}
-	.mhindexfooter {	position:absolute;height:5%;z-index:2;}
+	.mhindex {				position:relative;z-index:1;}
+	.mhindexnav {			position:absolute;height:5%;z-index:5;}
+	.mhindexbody {			position:absolute;height:100%;z-index:5;padding:10% 0;}
+	.mhindexfooter {		position:absolute;height:100%;z-index:2;}
 	/*NAVIGATION*/
-	.indexnav01 {		padding:0 0;}
+	.indexnav01 {			padding:0 0;}
 	/*BODY*/
-	.indexbody00 {			padding:0 0 1.0rem 0;text-align:center;font-family:"Playfair Display",serif;letter-spacing:-.1rem;}
+	.indexbody00 {			padding:0 0 1rem 0;text-align:center;font-family:"Playfair Display",serif;letter-spacing:-.1rem;}
 	.indexbody00 h1 {		font-size:2.5rem;line-height:100%;z-index:5;font-weight:600;color:#2c3b4d;}
 	.indexbody00 p {		color:#898989;}
 	/*----*/
 	.indexbody01 {			width:100%;padding:0 auto;text-align:center;z-index:5;}
-	.indexbody01 a {		width:1rem;height:1rem;margin:0 auto;color:#a35139;background-color:#a35139;border-radius:50%;display:inline-block;opacity:80%;}
-	.indexbody01 a:hover {	cursor:pointer;color:#2c3b4d;background-color:#2c3b4d;content:"yo";opacity:100%;}
-
+	.indexbody01 a {		width:1rem;height:1rem;margin:0 auto;color:#a35139;background-color:#a35139;
+							border-radius:50%;display:inline-block;opacity:80%;}
+	.indexbody01 a:hover {	cursor:pointer;color:#2c3b4d;background-color:#2c3b4d;opacity:100%;}
+	/*----*/
+	.indexbody02 {			width:100%;padding:0 auto;text-align:center;z-index:5;}
+	.indexbody02 a {		width:1rem;height:1rem;margin:0 auto;color:#a35139;background-color:#a35139;
+							border-radius:50%;display:inline-block;opacity:80%;}
+	.indexbody02 a:hover {	cursor:pointer;color:#2c3b4d;background-color:#2c3b4d;opacity:100%;}
 	/*FOOTER*/
-	.indexfooter01 {	width:100%;}
+	.indexfooter01 {		width:100%;}
 	/*BACKGROUND*/
-	.mhindex01 {		width:100%;}
-	.mhindex01 img {	opacity:100%;}
+	.mhindex01 {			width:100%;height:100%;}
+	.mhindex01 img {		width:100%;height:100%;opacity:100%;object-fit:fill;scale:1;}
+	}
 
-	
-	/* 01 ABOUT US ------------------------------------------------------------------------------------------------*/
+/* 0000 RESPONSIVE 0000 ------------------------------------------------------------------------------------------------*/
