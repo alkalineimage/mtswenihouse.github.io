@@ -1,0 +1,13 @@
+
+@keyframes 
+dotpulse {	0% {	opacity:80%;scale:.75;font-size:.5rem;}
+			100% {	opacity:100%;scale:1;} 
+			}	
+
+.indexbody01 a:nth-child(1) {	animation:dotpulse .75s ease-in-out 0s infinite alternate;}
+.indexbody01 a:nth-child(2) {	animation:dotpulse .75s ease-in-out .5s infinite alternate;}
+.indexbody02 a:nth-child(1) {	animation:dotpulse .75s ease-in-out .75s infinite alternate;}
+.indexbody02 a:nth-child(2) {	animation:dotpulse .75s ease-in-out 1s infinite alternate;}
+.indexbody02 a:nth-child(3) {	animation:dotpulse .75s ease-in-out 1.25s infinite alternate;}
+
+.indexbody01 a:hover, .indexbody02 a:hover {	animation:none;}
